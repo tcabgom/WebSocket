@@ -11,6 +11,9 @@ active_connections = set()
 message_buffer = deque(maxlen=50)
 
 def get_route(data):
+    '''
+    ESCRIBIR AQUI ALGORITMO DE BUSQUEDA DE RUTA OPTIMA
+    '''
     return "Test"
 
 async def handler(websocket, path):
